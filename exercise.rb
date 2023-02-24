@@ -41,7 +41,7 @@ class Exercise
     if nth > 1
       fib_array.push(1)
     end
-    while fib_array.length != nth
+    while fib_array.length < nth
       next_num = prev + cur
       fib_array.push(next_num)
       prev = cur
